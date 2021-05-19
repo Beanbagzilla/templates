@@ -56,15 +56,15 @@ configuration CreateADPDC
 	        DependsOn = "[WindowsFeature]DNS"
         }
 
-        xWaitforDisk Disk2
+        xWaitforDisk Disk1
         {
-            DiskNumber = 2
+            DiskNumber = 1
             RetryIntervalSec =$RetryIntervalSec
             RetryCount = $RetryCount
         }
 
         xDisk ADDataDisk {
-            DiskNumber = 2
+            DiskNumber = 1
             DriveLetter = "F"
             DependsOn = "[xWaitForDisk]Disk2"
         }
