@@ -57,7 +57,7 @@
         },
         "virtualNetworkName": {
             "type": "string",
-            "defaultValue": "Koarvu VNet",
+            "defaultValue": "Koarvu-vNet",
             "metadata": {
                 "description": "Virtual network name."
             }
