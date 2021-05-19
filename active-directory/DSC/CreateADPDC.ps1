@@ -66,7 +66,7 @@ configuration CreateADPDC
         xDisk ADDataDisk {
             DiskNumber = 1
             DriveLetter = "F"
-            DependsOn = "[xWaitForDisk]Disk2"
+            DependsOn = "[xWaitForDisk]Disk1"
         }
 
         WindowsFeature ADDSInstall 
