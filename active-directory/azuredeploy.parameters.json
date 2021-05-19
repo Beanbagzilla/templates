@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "adminUsername": {
-      "value": "Administrator"
+      "value": "KoravuAdmin"
     },
     "adminPassword": {
       "value": "j#pV89@t57%%6c"
